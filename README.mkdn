@@ -1,0 +1,18 @@
+TWRP
+===========
+
+Getting Started
+---------------
+
+To initialize your local repository using the CyanogenMod trees, use a command like this:
+
+    repo init -u git://github.com/dh-harald/twrp_android.git -b cm-12.1
+
+Then to sync up:
+
+    repo sync
+
+Compile TWRP
+------------
+
+If you are using CM 12.1 then you will probably want to apply this patch into external/sepolicy: http://review.cyanogenmod.org/#/c/89474/
